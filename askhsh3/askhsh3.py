@@ -13,6 +13,8 @@ file = '/Users/mpardanhs/Desktop/papei/Python/eksetastikhPython/askhsh3/two_citi
 with open(file) as f:
     seires = f.readlines()
 
+f.close() #kleinoyme to arxeio afoy apothikeysame to periexomeno toy
+
 # Ennwnoyme th lista twn seirwn se ena string me olo to periexomeno 
 seires = ' '.join([str(elem) for elem in seires])
 
